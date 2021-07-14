@@ -1,5 +1,5 @@
 # gonia | mania star + pp calculator
-a very fast and accurate star + pp calculator for mania. gonia has low memory usage and very fast calculation times and currently has the fastest (for mania).
+a very fast and accurate star + pp calculator for mania. gonia has low memory usage and very fast calculation speeds and currently has the fastest (for mania).
 
 * [installation (windows)](#installation-windows)
 * [installation (linux)](#installation-linuxubuntu)
