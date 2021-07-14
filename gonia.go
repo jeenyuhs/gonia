@@ -21,34 +21,34 @@ type Config struct {
 
 type Gonia struct {
 	PP		*PPS
-	Stars	float64
+	Stars		float64
 
-	ConfParsed bool
-	Conf 	*Config
-	Map 	*Beatmap
+	ConfParsed	 bool
+	Conf 		*Config
+	Map 		*Beatmap
 }
 
 type PPS struct {
-	Total	float64
-	Acc 	float64
-	Strain 	float64
+	Total		float64
+	Acc 		float64
+	Strain 		float64
 }
 
 type Note struct {
-	Exists				bool
+	Exists		bool
 
-	Key					int
-	Start 				float64
-	End 				float64
-	Strain				float64
-	HeldUntil			[]float64
-	IndividualStrain 	[]float64
+	Key		int
+	Start 		float64
+	End 		float64
+	Strain		float64
+	HeldUntil	[]float64
+	IndividualStrain []float64
 }
 
 type Beatmap struct {
 	OD		float64
-	Keys	int
-	Notes	[]*Note
+	Keys		int
+	Notes		[]*Note
 }
 
 func ToInt16(s string) int16 {
